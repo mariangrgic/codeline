@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>CodeLine Weather Task - Marian Grgić</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8;" />
+        <meta name="keywords" content=""/>
+        <meta name="viewport" content="width=device-width" />
+        <meta name="google" content="notranslate" />
+
+        <link type="text/css" href="css/main.css" rel="stylesheet"/>
+
+        <script src="javascript/jquery-3.1.0.min.js" type="text/javascript"></script>
+        <script src="javascript/weather.js" type="text/javascript"></script>
+
+    </head>
+
+    <body>
+        <main>
+
+            <nav>
+                <a href="Javascript:void(0);" onClick="weather.showDefault();" title="Home">
+                    Home/Refresh
+                </a>
+                <form action="Javascript:void(0);" id="searchForm">
+                    <input type="text" name="term" placeholder="Search City"/>
+                    <a href="Javascript:void(0);" title="Search" onClick="weather.search();">
+                        Go
+                    </a>
+                </form>
+            </nav>
+
+            <section id="weather"></section>
+
+        </main>
+
+    </body>
+
+</html>
+
+
